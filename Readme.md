@@ -6,7 +6,7 @@
        
 </p>
 
-> Status do Projeto: :warning: concluído
+> Status do Projeto: :warning: em desenvolvimento
 
 ### Tópicos 
 
