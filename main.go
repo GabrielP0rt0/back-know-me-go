@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"back-know-me-go/routes"
+)
 
 func main() {
-	fmt.Println("hello world")
+	routes.HandleRequest()
 }
