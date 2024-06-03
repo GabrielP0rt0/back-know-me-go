@@ -5,8 +5,8 @@ FROM golang:1.20
 WORKDIR /
 
 # Copie o arquivo go.mod e go.sum e instale as dependências
-COPY go.mod go.sum ./
-RUN go mod install
+# COPY go.mod go.sum 
+RUN go mod donwload
 # Copie o código fonte
 COPY . .
 
