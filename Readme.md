@@ -6,7 +6,7 @@
        
 </p>
 
-> Status do Projeto: :warning: concluído
+> Status do Projeto: :warning: em desenvolvimento
 
 ### Tópicos 
 
@@ -92,4 +92,4 @@ go run main.go
 Após isso as requisições já estão prontas para serem chamadas em <b>localhost:8080</b>
  -->
 
-Copyright :copyright: 2023 - Go-a-linguagem-do-Google
+Copyright :copyright: 2024 - Back-Know-Me-Go
