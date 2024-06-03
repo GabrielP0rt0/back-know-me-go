@@ -2,13 +2,13 @@
 FROM golang:1.20
 
 # Defina o diretório de trabalho dentro do contêiner
-WORKDIR /
+WORKDIR /app
 
 # Copie o arquivo go.mod e go.sum e instale as dependências
-# COPY go.mod go.sum 
+COPY go.mod go.sum  /app/
 RUN go mod donwload
 # Copie o código fonte
-COPY . .
+COPY . /app
 
 # Compile o aplicativo
 RUN go build -o main .
