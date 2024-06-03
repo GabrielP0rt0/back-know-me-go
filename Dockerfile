@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Copie o arquivo go.mod e go.sum e instale as dependências
 COPY go.mod go.sum  /app/
-RUN go mod donwload
+RUN go mod install
 # Copie o código fonte
 COPY . /app
 
